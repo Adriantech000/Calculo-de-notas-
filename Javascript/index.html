@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Notas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Notas</h1>
+    <form id="gradeForm">
+      <label for="nota1">Nota do 1º Semestre:</label>
+      <input type="number" id="nota1" min="0" max="100" required>
+
+      <label for="nota2">Nota do 2º Semestre:</label>
+      <input type="number" id="nota2" min="0" max="100" required>
+
+      <label for="nota3">Nota do 3º Semestre:</label>
+      <input type="number" id="nota3" min="0" max="100" required>
+
+      <label for="nota4">Nota do 4º Semestre:</label>
+      <input type="number" id="nota4" min="0" max="100" required>
+
+      <button type="button" id="calcular">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
